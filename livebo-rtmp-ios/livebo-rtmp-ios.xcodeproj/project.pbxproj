@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E203814259CC0BF00F66996 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E203813259CC0BF00F66996 /* Storyboard.storyboard */; };
+		1E9D945C259CBCE500292916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E9D945B259CBCE500292916 /* Assets.xcassets */; };
+		1E9D945F259CBCE500292916 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E9D945E259CBCE500292916 /* Preview Assets.xcassets */; };
+		1E9D946D259CBCE600292916 /* livebo_rtmp_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D946C259CBCE600292916 /* livebo_rtmp_iosTests.swift */; };
+		1E9D9478259CBCE600292916 /* livebo_rtmp_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D9477259CBCE600292916 /* livebo_rtmp_iosUITests.swift */; };
+		1E9D94A7259CBD8F00292916 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D949B259CBD8D00292916 /* Settings.swift */; };
+		1E9D94A8259CBD8F00292916 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D949C259CBD8D00292916 /* TabBar.swift */; };
+		1E9D94A9259CBD8F00292916 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D949D259CBD8D00292916 /* UpdateList.swift */; };
+		1E9D94AA259CBD8F00292916 /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D949E259CBD8D00292916 /* HomeList.swift */; };
+		1E9D94AB259CBD8F00292916 /* CertificateRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D949F259CBD8E00292916 /* CertificateRows.swift */; };
+		1E9D94AC259CBD8F00292916 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94A0259CBD8E00292916 /* ContentView.swift */; };
+		1E9D94AD259CBD8F00292916 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94A1259CBD8E00292916 /* BlurView.swift */; };
+		1E9D94AE259CBD8F00292916 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94A2259CBD8F00292916 /* Home.swift */; };
+		1E9D94AF259CBD8F00292916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94A3259CBD8F00292916 /* AppDelegate.swift */; };
+		1E9D94B0259CBD8F00292916 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94A4259CBD8F00292916 /* SceneDelegate.swift */; };
+		1E9D94B1259CBD8F00292916 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94A5259CBD8F00292916 /* UpdateDetail.swift */; };
+		1E9D94B2259CBD8F00292916 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94A6259CBD8F00292916 /* UpdateStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E9D9469259CBCE600292916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E9D944A259CBCE300292916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E9D9451259CBCE300292916;
+			remoteInfo = "livebo-rtmp-ios";
+		};
+		1E9D9474259CBCE600292916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E9D944A259CBCE300292916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E9D9451259CBCE300292916;
+			remoteInfo = "livebo-rtmp-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E203813259CC0BF00F66996 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		1E9D9452259CBCE300292916 /* livebo-rtmp-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "livebo-rtmp-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9D945B259CBCE500292916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E9D945E259CBCE500292916 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E9D9463259CBCE500292916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E9D9468259CBCE600292916 /* livebo-rtmp-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "livebo-rtmp-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9D946C259CBCE600292916 /* livebo_rtmp_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = livebo_rtmp_iosTests.swift; sourceTree = "<group>"; };
+		1E9D946E259CBCE600292916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E9D9473259CBCE600292916 /* livebo-rtmp-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "livebo-rtmp-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9D9477259CBCE600292916 /* livebo_rtmp_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = livebo_rtmp_iosUITests.swift; sourceTree = "<group>"; };
+		1E9D9479259CBCE600292916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E9D949B259CBD8D00292916 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1E9D949C259CBD8D00292916 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		1E9D949D259CBD8D00292916 /* UpdateList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		1E9D949E259CBD8D00292916 /* HomeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
+		1E9D949F259CBD8E00292916 /* CertificateRows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateRows.swift; sourceTree = "<group>"; };
+		1E9D94A0259CBD8E00292916 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E9D94A1259CBD8E00292916 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		1E9D94A2259CBD8F00292916 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1E9D94A3259CBD8F00292916 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E9D94A4259CBD8F00292916 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1E9D94A5259CBD8F00292916 /* UpdateDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		1E9D94A6259CBD8F00292916 /* UpdateStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E9D944F259CBCE300292916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9D9465259CBCE600292916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9D9470259CBCE600292916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E9D9449259CBCE300292916 = {
+			isa = PBXGroup;
+			children = (
+				1E9D9454259CBCE300292916 /* livebo-rtmp-ios */,
+				1E9D946B259CBCE600292916 /* livebo-rtmp-iosTests */,
+				1E9D9476259CBCE600292916 /* livebo-rtmp-iosUITests */,
+				1E9D9453259CBCE300292916 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E9D9453259CBCE300292916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E9D9452259CBCE300292916 /* livebo-rtmp-ios.app */,
+				1E9D9468259CBCE600292916 /* livebo-rtmp-iosTests.xctest */,
+				1E9D9473259CBCE600292916 /* livebo-rtmp-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E9D9454259CBCE300292916 /* livebo-rtmp-ios */ = {
+			isa = PBXGroup;
+			children = (
+				1E9D94C7259CBEF600292916 /* Basic */,
+				1E9D94C6259CBEE200292916 /* ViewModel */,
+				1E9D94C5259CBED900292916 /* ViewController */,
+				1E9D94C4259CBEC300292916 /* Utils */,
+				1E9D94C3259CBEAC00292916 /* Model */,
+				1E9D94C2259CBE9300292916 /* Config */,
+				1E9D94C1259CBE8500292916 /* Libs */,
+				1E9D94A3259CBD8F00292916 /* AppDelegate.swift */,
+				1E9D94A0259CBD8E00292916 /* ContentView.swift */,
+				1E9D94A4259CBD8F00292916 /* SceneDelegate.swift */,
+				1E9D945B259CBCE500292916 /* Assets.xcassets */,
+				1E9D9463259CBCE500292916 /* Info.plist */,
+				1E9D945D259CBCE500292916 /* Preview Content */,
+				1E203813259CC0BF00F66996 /* Storyboard.storyboard */,
+			);
+			path = "livebo-rtmp-ios";
+			sourceTree = "<group>";
+		};
+		1E9D945D259CBCE500292916 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E9D945E259CBCE500292916 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E9D946B259CBCE600292916 /* livebo-rtmp-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E9D946C259CBCE600292916 /* livebo_rtmp_iosTests.swift */,
+				1E9D946E259CBCE600292916 /* Info.plist */,
+			);
+			path = "livebo-rtmp-iosTests";
+			sourceTree = "<group>";
+		};
+		1E9D9476259CBCE600292916 /* livebo-rtmp-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E9D9477259CBCE600292916 /* livebo_rtmp_iosUITests.swift */,
+				1E9D9479259CBCE600292916 /* Info.plist */,
+			);
+			path = "livebo-rtmp-iosUITests";
+			sourceTree = "<group>";
+		};
+		1E9D94C1259CBE8500292916 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		1E9D94C2259CBE9300292916 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		1E9D94C3259CBEAC00292916 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E9D94C4259CBEC300292916 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1E9D94C5259CBED900292916 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E9D94A1259CBD8E00292916 /* BlurView.swift */,
+				1E9D949F259CBD8E00292916 /* CertificateRows.swift */,
+				1E9D94A2259CBD8F00292916 /* Home.swift */,
+				1E9D949E259CBD8D00292916 /* HomeList.swift */,
+				1E9D949B259CBD8D00292916 /* Settings.swift */,
+				1E9D949C259CBD8D00292916 /* TabBar.swift */,
+				1E9D94A5259CBD8F00292916 /* UpdateDetail.swift */,
+				1E9D949D259CBD8D00292916 /* UpdateList.swift */,
+				1E9D94A6259CBD8F00292916 /* UpdateStore.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1E9D94C6259CBEE200292916 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E9D94C7259CBEF600292916 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E9D9451259CBCE300292916 /* livebo-rtmp-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E9D947C259CBCE600292916 /* Build configuration list for PBXNativeTarget "livebo-rtmp-ios" */;
+			buildPhases = (
+				1E9D944E259CBCE300292916 /* Sources */,
+				1E9D944F259CBCE300292916 /* Frameworks */,
+				1E9D9450259CBCE300292916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "livebo-rtmp-ios";
+			productName = "livebo-rtmp-ios";
+			productReference = 1E9D9452259CBCE300292916 /* livebo-rtmp-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E9D9467259CBCE600292916 /* livebo-rtmp-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E9D947F259CBCE600292916 /* Build configuration list for PBXNativeTarget "livebo-rtmp-iosTests" */;
+			buildPhases = (
+				1E9D9464259CBCE600292916 /* Sources */,
+				1E9D9465259CBCE600292916 /* Frameworks */,
+				1E9D9466259CBCE600292916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E9D946A259CBCE600292916 /* PBXTargetDependency */,
+			);
+			name = "livebo-rtmp-iosTests";
+			productName = "livebo-rtmp-iosTests";
+			productReference = 1E9D9468259CBCE600292916 /* livebo-rtmp-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E9D9472259CBCE600292916 /* livebo-rtmp-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E9D9482259CBCE600292916 /* Build configuration list for PBXNativeTarget "livebo-rtmp-iosUITests" */;
+			buildPhases = (
+				1E9D946F259CBCE600292916 /* Sources */,
+				1E9D9470259CBCE600292916 /* Frameworks */,
+				1E9D9471259CBCE600292916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E9D9475259CBCE600292916 /* PBXTargetDependency */,
+			);
+			name = "livebo-rtmp-iosUITests";
+			productName = "livebo-rtmp-iosUITests";
+			productReference = 1E9D9473259CBCE600292916 /* livebo-rtmp-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E9D944A259CBCE300292916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1E9D9451259CBCE300292916 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+					1E9D9467259CBCE600292916 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1E9D9451259CBCE300292916;
+					};
+					1E9D9472259CBCE600292916 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1E9D9451259CBCE300292916;
+					};
+				};
+			};
+			buildConfigurationList = 1E9D944D259CBCE300292916 /* Build configuration list for PBXProject "livebo-rtmp-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E9D9449259CBCE300292916;
+			productRefGroup = 1E9D9453259CBCE300292916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E9D9451259CBCE300292916 /* livebo-rtmp-ios */,
+				1E9D9467259CBCE600292916 /* livebo-rtmp-iosTests */,
+				1E9D9472259CBCE600292916 /* livebo-rtmp-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E9D9450259CBCE300292916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9D945F259CBCE500292916 /* Preview Assets.xcassets in Resources */,
+				1E9D945C259CBCE500292916 /* Assets.xcassets in Resources */,
+				1E203814259CC0BF00F66996 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9D9466259CBCE600292916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9D9471259CBCE600292916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E9D944E259CBCE300292916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9D94A7259CBD8F00292916 /* Settings.swift in Sources */,
+				1E9D94AD259CBD8F00292916 /* BlurView.swift in Sources */,
+				1E9D94A8259CBD8F00292916 /* TabBar.swift in Sources */,
+				1E9D94AF259CBD8F00292916 /* AppDelegate.swift in Sources */,
+				1E9D94B2259CBD8F00292916 /* UpdateStore.swift in Sources */,
+				1E9D94AC259CBD8F00292916 /* ContentView.swift in Sources */,
+				1E9D94B1259CBD8F00292916 /* UpdateDetail.swift in Sources */,
+				1E9D94B0259CBD8F00292916 /* SceneDelegate.swift in Sources */,
+				1E9D94AA259CBD8F00292916 /* HomeList.swift in Sources */,
+				1E9D94A9259CBD8F00292916 /* UpdateList.swift in Sources */,
+				1E9D94AE259CBD8F00292916 /* Home.swift in Sources */,
+				1E9D94AB259CBD8F00292916 /* CertificateRows.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9D9464259CBCE600292916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9D946D259CBCE600292916 /* livebo_rtmp_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9D946F259CBCE600292916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9D9478259CBCE600292916 /* livebo_rtmp_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E9D946A259CBCE600292916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E9D9451259CBCE300292916 /* livebo-rtmp-ios */;
+			targetProxy = 1E9D9469259CBCE600292916 /* PBXContainerItemProxy */;
+		};
+		1E9D9475259CBCE600292916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E9D9451259CBCE300292916 /* livebo-rtmp-ios */;
+			targetProxy = 1E9D9474259CBCE600292916 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E9D947A259CBCE600292916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E9D947B259CBCE600292916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E9D947D259CBCE600292916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"livebo-rtmp-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = DAZWZG2343;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "livebo-rtmp-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iblai.livebo-rtmp-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E9D947E259CBCE600292916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"livebo-rtmp-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = DAZWZG2343;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "livebo-rtmp-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iblai.livebo-rtmp-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E9D9480259CBCE600292916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAZWZG2343;
+				INFOPLIST_FILE = "livebo-rtmp-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iblai.livebo-rtmp-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/livebo-rtmp-ios.app/livebo-rtmp-ios";
+			};
+			name = Debug;
+		};
+		1E9D9481259CBCE600292916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAZWZG2343;
+				INFOPLIST_FILE = "livebo-rtmp-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iblai.livebo-rtmp-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/livebo-rtmp-ios.app/livebo-rtmp-ios";
+			};
+			name = Release;
+		};
+		1E9D9483259CBCE600292916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAZWZG2343;
+				INFOPLIST_FILE = "livebo-rtmp-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iblai.livebo-rtmp-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "livebo-rtmp-ios";
+			};
+			name = Debug;
+		};
+		1E9D9484259CBCE600292916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAZWZG2343;
+				INFOPLIST_FILE = "livebo-rtmp-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iblai.livebo-rtmp-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "livebo-rtmp-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E9D944D259CBCE300292916 /* Build configuration list for PBXProject "livebo-rtmp-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E9D947A259CBCE600292916 /* Debug */,
+				1E9D947B259CBCE600292916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E9D947C259CBCE600292916 /* Build configuration list for PBXNativeTarget "livebo-rtmp-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E9D947D259CBCE600292916 /* Debug */,
+				1E9D947E259CBCE600292916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E9D947F259CBCE600292916 /* Build configuration list for PBXNativeTarget "livebo-rtmp-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E9D9480259CBCE600292916 /* Debug */,
+				1E9D9481259CBCE600292916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E9D9482259CBCE600292916 /* Build configuration list for PBXNativeTarget "livebo-rtmp-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E9D9483259CBCE600292916 /* Debug */,
+				1E9D9484259CBCE600292916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E9D944A259CBCE300292916 /* Project object */;
+}
