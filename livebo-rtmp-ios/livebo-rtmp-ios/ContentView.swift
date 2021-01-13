@@ -88,7 +88,7 @@ struct CardView: View {
 
 struct LeeView: View {
     
-    var item = Certificate(title: "Hello World", image: "Background", width: 340.0, height: 220.0)
+    var item = Certificate(title: "实时场景分析", image: "Background", width: 340.0, height: 220.0)
     
     var body: some View {
         VStack {
@@ -99,7 +99,7 @@ struct LeeView: View {
                         .fontWeight(.bold)
                         .foregroundColor(Color("accent"))
                         .padding(.top)
-                    Text("lee jiangbo")
+                    Text("人脸感知、物品识别、垃圾分类")
                         .foregroundColor(Color.white)
                 }
                 .padding(.leading)
@@ -126,7 +126,7 @@ struct TitleView: View {
     var body: some View {
         VStack {
             HStack {
-                Text("Certificates")
+                Text("摆领实时智能识别")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                 Spacer()
@@ -144,7 +144,7 @@ struct CardBottomView: View {
                 .frame(width: 60, height: 6)
                 .cornerRadius(3.0)
                 .opacity(0.1)
-            Text("ad发货地of地方叫都叫欧迪芬恐怕发快递搜房卡是都开发的伤口欧派的疯狂的搜发快递佛龛的是佛防控")
+            Text("xx")
                 .font(.body)
                 .lineLimit(5)
             Spacer()
