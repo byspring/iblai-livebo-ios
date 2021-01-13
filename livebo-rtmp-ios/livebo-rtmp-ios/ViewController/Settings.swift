@@ -17,7 +17,7 @@ struct Settings: View {
         NavigationView {
             Form {
                 Toggle(isOn: $toggleOn) {
-                    Text("Hello")
+                    Text("西潞苑")
                 }
                 Stepper(value: $number, in: 1...10) {
                     Text("\(number) WORLD\(number > 1 ? "s" : "")")
