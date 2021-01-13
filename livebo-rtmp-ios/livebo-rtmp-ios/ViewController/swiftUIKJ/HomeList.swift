@@ -79,7 +79,8 @@ struct CourseView: View {
                 .padding(20)
                 .lineLimit(nil)
                 .padding(.trailing, 50)
-            Text(xiaotitle).foregroundColor(.white).offset(x: 20, y: 0).font(.custom("", size: 22)) //水平方向向右偏移40点的距离
+            
+            Text(xiaotitle).foregroundColor(.white).padding(20).font(.custom("", size: 22)) //水平方向向右偏移40点的距离
             Spacer()
             
             Image(image)
