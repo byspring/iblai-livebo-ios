@@ -12,7 +12,7 @@ struct CertificateRows: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Certificates")
+            Text("最近直播记录")
                 .font(.system(size: 20))
                 .fontWeight(.heavy)
                 .padding(.leading, 30)

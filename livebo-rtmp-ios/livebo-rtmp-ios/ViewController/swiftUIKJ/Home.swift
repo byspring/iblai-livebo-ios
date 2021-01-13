@@ -30,15 +30,15 @@ struct Home: View {
                 .animation(.spring())
                 .offset(y: showProfile ? 40 + statusBarHeight : screen.height)
             
-            MenuButton(show: $show)
-                .offset(x: -40, y: showProfile ? statusBarHeight : 80)
-                .animation(.spring())
+//            MenuButton(show: $show)
+//                .offset(x: -40, y: showProfile ? statusBarHeight : 80)
+//                .animation(.spring())
+//
+//            MenuRight(show: $showProfile)
+//                .offset(x: -16, y: showProfile ? statusBarHeight : 88)
+//                .animation(.spring())
 
-            MenuRight(show: $showProfile)
-                .offset(x: -16, y: showProfile ? statusBarHeight : 88)
-                .animation(.spring())
-
-            MenuView(show: $show)
+//            MenuView(show: $show)
         }
         .background(Color("background"))
         .edgesIgnoringSafeArea(.all)

@@ -3,30 +3,25 @@
 //  Created by yqb on 2020/12/24.
 //  Copyright © 2020 iblai All rights reserved.
 //
-
 import SwiftUI
 
 struct HomeList: View {
-    
     let courseData = CourseData
     @State var showModel = false
-    
     var body: some View {
-        
         ScrollView {
             VStack {
                 HStack {
                     VStack {
-                        Text("云直播")
+                        Text("摆领云直播")
                             .font(.largeTitle)
                             .fontWeight(.heavy)
-                        Text("rtmp")
+                        Text("视频智能服务专家")
                             .foregroundColor(.gray)
                     }
                     Spacer()
                 }
                 .padding(.leading, 70)
-                
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 30) {
                         ForEach(courseData) { item in
@@ -36,6 +31,7 @@ struct HomeList: View {
                                 GeometryReader { geometry in
                                     CourseView(
                                         title: item.title,
+                                        xiaotitle : item.xiaotitle,
                                         image: item.image,
                                         backgroundColor: item.backgroundColor,
                                         shadowColor: item.shadowColor
@@ -46,15 +42,13 @@ struct HomeList: View {
                             }.sheet(isPresented: self.$showModel) {
                                 ContentView()
                             }
-                            
                         }
                     }
                     .padding(.leading, 30)
                     .padding(.top, 30)
-                    .padding(.bottom, 70)
+                    .padding(.bottom, 30)
                     Spacer()
                 }
-                
                 CertificateRows()
             }
             .padding(.top, 78)
@@ -71,9 +65,11 @@ struct HomeList_Previews: PreviewProvider {
 
 struct CourseView: View {
     var title : String = "Build an app with SwiftUI"
+    var xiaotitle : String = "xxxxx"
     var image : String = "Illustration1"
     var backgroundColor: Color = Color("background3")
     var shadowColor : Color = Color("shadow3")
+    
     var body: some View {
         VStack(alignment: .leading) {
             Text(title)
@@ -81,9 +77,11 @@ struct CourseView: View {
                 .fontWeight(.bold)
                 .foregroundColor(.white)
                 .padding(20)
-                .lineLimit(4)
+                .lineLimit(nil)
                 .padding(.trailing, 50)
+            Text(xiaotitle).foregroundColor(.white).offset(x: 20, y: 0).font(.custom("", size: 22)) //水平方向向右偏移40点的距离
             Spacer()
+            
             Image(image)
                 .resizable()
                 .renderingMode(.original)
@@ -95,50 +93,31 @@ struct CourseView: View {
         .cornerRadius(30)
         .frame(width: 246, height: 360)
         .shadow(color: shadowColor, radius: 20, x: 0, y: 20)
+        
     }
 }
 
 struct Course: Identifiable {
     var id = UUID()
     var title : String
+    var xiaotitle : String
     var image : String
     var backgroundColor: Color
     var shadowColor : Color
+    
 }
 
 let CourseData = [
     Course(
-        title: "Build an app with SwiftUI",
+        title: "RTMP直播",
+        xiaotitle : "全端支持、稳定、兼容好、延时低",
         image: "Illustration1",
         backgroundColor: Color("background3"),
         shadowColor: Color("shadow3")
     ),
     Course(
-        title: "Hello cat haha",
-        image: "Illustration2",
-        backgroundColor: Color("background4"),
-        shadowColor: Color("shadow4")
-    ),
-    Course(
-        title: "Build an app with SwiftUI",
-        image: "Illustration1",
-        backgroundColor: Color("background3"),
-        shadowColor: Color("shadow3")
-    ),
-    Course(
-        title: "Hello cat haha",
-        image: "Illustration2",
-        backgroundColor: Color("background4"),
-        shadowColor: Color("shadow4")
-    ),
-    Course(
-        title: "Build an app with SwiftUI",
-        image: "Illustration1",
-        backgroundColor: Color("background3"),
-        shadowColor: Color("shadow3")
-    ),
-    Course(
-        title: "Hello cat haha",
+        title: "RTC快直播",
+        xiaotitle : "超低延时300毫秒内、无需安装插件",
         image: "Illustration2",
         backgroundColor: Color("background4"),
         shadowColor: Color("shadow4")

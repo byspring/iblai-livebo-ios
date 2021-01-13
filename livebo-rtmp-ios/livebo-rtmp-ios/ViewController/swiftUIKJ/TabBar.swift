@@ -17,22 +17,33 @@ struct TabBar: View {
             Home()
                 .tabItem {
                     Image("IconHome")
-                    Text("推流")
+                    Text("云直播")
             }
             .tag(1)
             ContentView()
                 .tabItem {
                     Image("IconCards")
-                    Text("拉流")
+                    Text("AI识别")
             }
-            .tag(2)
+                
+                .tag(2)
+            TT().tabItem
+                {
+                Image("IconSettings")
+                Text("设置")
+                
+                }
+                
+            .tag(3)
             
             Settings()
                 .tabItem {
                     Image("IconSettings")
-                    Text("我的")
+                    Text("关于")
+                    
             }
-            .tag(4)
+            
+            
         }
         .accentColor(.red)
         .edgesIgnoringSafeArea(.top)
