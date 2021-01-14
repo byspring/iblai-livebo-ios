@@ -22,7 +22,7 @@ struct BlurView: UIViewRepresentable {
         NSLayoutConstraint.activate([
             blurView.heightAnchor.constraint(equalTo: view.heightAnchor),
             blurView.widthAnchor.constraint(equalTo: view.widthAnchor)
-        ])
+        ]) 
         return view
     }
     
