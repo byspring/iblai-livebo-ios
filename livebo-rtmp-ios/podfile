@@ -1,0 +1,33 @@
+platform :ios, '8.0'
+
+def commonPods #通用pods集
+    pod 'AFNetworking', '~> 2.0'
+    pod 'Masonry'
+end
+
+def appOnlyPods #app专用pods集
+    pod 'MBProgressHUD'
+end
+
+def extensionPods #扩展专用pods集
+    pod 'GTSDKExtension'
+end
+
+target :TestCocoaPods do
+    commonPods
+    appOnlyPods
+
+    target :TestCocoaPodsTests do
+    inherit! :search_paths
+    # Pods for testing
+    end
+
+    target :TestCocoaPodsUITests do
+        inherit! :search_paths
+        # Pods for testing
+    end
+end
+
+target :SecondTarget do
+    commonPods
+end
