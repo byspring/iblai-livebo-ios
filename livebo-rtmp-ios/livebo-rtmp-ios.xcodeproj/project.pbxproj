@@ -25,6 +25,7 @@
 		1E9D94B0259CBD8F00292916 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94A4259CBD8F00292916 /* SceneDelegate.swift */; };
 		1E9D94B1259CBD8F00292916 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94A5259CBD8F00292916 /* UpdateDetail.swift */; };
 		1E9D94B2259CBD8F00292916 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94A6259CBD8F00292916 /* UpdateStore.swift */; };
+		1ED5130025BEFAEC00D671BF /* RtmpPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED512FF25BEFAEC00D671BF /* RtmpPlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		1E9D94A4259CBD8F00292916 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1E9D94A5259CBD8F00292916 /* UpdateDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
 		1E9D94A6259CBD8F00292916 /* UpdateStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		1ED512FF25BEFAEC00D671BF /* RtmpPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RtmpPlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				1E9D94A5259CBD8F00292916 /* UpdateDetail.swift */,
 				1E9D949D259CBD8D00292916 /* UpdateList.swift */,
 				1E9D94A6259CBD8F00292916 /* UpdateStore.swift */,
+				1ED512FF25BEFAEC00D671BF /* RtmpPlay.swift */,
 			);
 			path = swiftUIKJ;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				1E9D94AD259CBD8F00292916 /* BlurView.swift in Sources */,
 				1E92F81A25A89F2B0080307D /* TT.swift in Sources */,
 				1E9D94A8259CBD8F00292916 /* TabBar.swift in Sources */,
+				1ED5130025BEFAEC00D671BF /* RtmpPlay.swift in Sources */,
 				1E9D94AF259CBD8F00292916 /* AppDelegate.swift in Sources */,
 				1E9D94B2259CBD8F00292916 /* UpdateStore.swift in Sources */,
 				1E9D94AC259CBD8F00292916 /* ContentView.swift in Sources */,
