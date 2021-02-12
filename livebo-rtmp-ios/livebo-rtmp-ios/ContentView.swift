@@ -88,7 +88,7 @@ struct CardView: View {
 
 struct LeeView: View {
     
-    var item = Certificate(title: "实时场景分析", image: "Background", width: 340.0, height: 220.0)
+    var item = Certificate(title: "实时场景分析",title1:"ss", image: "Background", width: 340.0, height: 220.0)
     
     var body: some View {
         VStack {
@@ -99,7 +99,7 @@ struct LeeView: View {
                         .fontWeight(.bold)
                         .foregroundColor(Color("accent"))
                         .padding(.top)
-                    Text("人脸感知、物品识别、垃圾分类")
+                    Text(item.title1)
                         .foregroundColor(Color.white)
                 }
                 .padding(.leading)
