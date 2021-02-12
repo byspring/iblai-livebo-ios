@@ -17,31 +17,31 @@ struct TabBar: View {
             Home()
                 .tabItem {
                     Image("IconHome")
-                    Text("云直播")
+                    Text("ibl云推流")
             }
             .tag(1)
-            ContentView()
+            RtmpPlay()
                 .tabItem {
                     Image("IconCards")
-                    Text("AI识别")
+                    Text("ibl云拉流")
             }
                 
-                .tag(2)
-            TT().tabItem
-                {
-                Image("IconSettings")
-                Text("设置")
-                
-                }
-                
-            .tag(3)
-            
-            Settings()
-                .tabItem {
-                    Image("IconSettings")
-                    Text("关于")
-                    
-            }
+//            .tag(2)
+//            TT().tabItem
+//                {
+//                Image("IconSettings")
+//                Text("设置")
+//
+//                }
+//
+//            .tag(3)
+//
+//            Settings()
+//                .tabItem {
+//                    Image("IconSettings")
+//                    Text("关于")
+//
+//            }
             
             
         }

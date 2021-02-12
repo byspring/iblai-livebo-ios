@@ -13,7 +13,7 @@ struct HomeList: View {
             VStack {
                 HStack {
                     VStack {
-                        Text("摆领云直播")
+                        Text("摆领IBL云直播")
                             .font(.largeTitle)
                             .fontWeight(.heavy)
                         Text("视频智能服务专家")
@@ -110,14 +110,14 @@ struct Course: Identifiable {
 
 let CourseData = [
     Course(
-        title: "RTMP直播",
+        title: "RTMP推流",
         xiaotitle : "全端支持、稳定、兼容好、延时低",
         image: "Illustration1",
         backgroundColor: Color("background3"),
         shadowColor: Color("shadow3")
     ),
     Course(
-        title: "RTC快直播",
+        title: "RTC推流直播",
         xiaotitle : "超低延时300毫秒内、无需安装插件",
         image: "Illustration2",
         backgroundColor: Color("background4"),
